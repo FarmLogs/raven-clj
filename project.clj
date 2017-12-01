@@ -1,8 +1,9 @@
-(defproject raven-clj "1.5.0"
+(defproject org.clojars.tcrawley/raven-clj "1.5.1-SNAPSHOT"
   :description "Sentry clojure client"
   :url "http://github.com/sethtrain/raven-clj"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :deploy-repositories [["releases" :clojars]]
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [cheshire "5.0.1"]
                  [clj-http "3.0.1"]
